@@ -33,7 +33,7 @@ hrApp.controller('DepartmentEditController', ['$scope', '$http', '$routeParams',
                 $location.url('/departmentView/' + $scope.department.departmentId);
             }, function(err) {
                 console.log('An error occurred while editing department: ' + err.status);
-            });
+        });
         };
 
     }]);
